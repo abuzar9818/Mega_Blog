@@ -1,0 +1,35 @@
+/* Global layout overrides on top of Tailwind */
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+main {
+  min-height: calc(100vh - 120px);
+}
+
+.browser-css p {
+  margin-bottom: 0.75rem;
+}
+
+.browser-css h1,
+.browser-css h2,
+.browser-css h3 {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.browser-css ul,
+.browser-css ol {
+  padding-left: 1.5rem;
+  margin-bottom: 0.75rem;
+}
