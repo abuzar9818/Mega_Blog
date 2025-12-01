@@ -75,6 +75,7 @@ PORT=3000
 (Adjust based on your environment.)
 
 📁 Folder Structure
+
 mega_blog/
 ├── src/
 │   ├── components/
@@ -87,6 +88,7 @@ mega_blog/
 ├── package.json
 ├── README.md
 └── .env
+
 
 📘 API Documentation
 
